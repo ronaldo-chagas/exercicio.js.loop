@@ -9,16 +9,14 @@ do {
 console.log("Nota válida:", nota)
 
 2. Loop de 1 a 100
-javascript
-Copiar código
+
 for (let i = 1; i <= 100; i++) {
   console.log(i)
 }
 
 
 3. Senha diferente do nome de usuário
-javascript
-Copiar código
+
 let usuario, senha
 do {
   usuario = prompt("Digite seu nome de usuário:")
@@ -31,8 +29,7 @@ console.log("Usuário e senha válidos!")
 
 
 4. Validação de dados (nome, idade, salário, sexo, estado civil)
-javascript
-Copiar código
+
 let nome, idade, salario, sexo, estadoCivil
 
 do {
@@ -58,9 +55,8 @@ do {
 console.log("Dados validados com sucesso!")
 
 
-5. Cálculo de anos para população A ultrapassar B
-javascript
-Copiar código
+5. Cálculo de anos para população A ultrapassar B 
+
 let popA = 80000
 let popB = 200000
 let taxaA = 0.03
@@ -77,8 +73,7 @@ console.log(`Anos necessários: ${anos}`)
 
 
 6. População A e B com entrada do usuário
-javascript
-Copiar código
+
 let popA, popB, taxaA, taxaB, anos
 
 do {
